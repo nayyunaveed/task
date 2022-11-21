@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Longest from './components/Longest';
+import Duplicate from './components/Duplicate';
+import Falsy from './components/Falsy';
+import Repeat from './components/Repeat';
+import Truncate from './components/Truncate';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Longest/>
+      <Duplicate/>
+      <Falsy/>
+<Repeat/>
+<Truncate/>
     </div>
   );
 }
